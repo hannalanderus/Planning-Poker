@@ -1,5 +1,8 @@
 # Planning-Poker
 
+Hanna Landerus | [GitHub Pages]( ) | [GitHub Repository](https://github.com/hannalanderus/Planning-Poker.git)
+
+
 ## Teknikval
 
 * Vanilla JS
