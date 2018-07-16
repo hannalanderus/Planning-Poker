@@ -1,0 +1,215 @@
+#headWrapper {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+}
+
+#headWrapper h1{
+    display: inline-block;
+    color: #2C302F;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#errorText{
+    display: flex;
+    justify-content: center;
+    font-size: 1,5em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: #DE657A;
+}
+
+#cardWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cardZero,
+#cardHalf,
+#cardOne,
+#cardTwo,
+#cardThree,
+#cardFive,
+#cardEight,
+#cardThirteen,
+#cardTwentyOne,
+#cardThirtyFour,
+#cardHundred,
+#cardQuestionMark{
+    margin: 2%;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#number_cardZero:hover,
+#number_cardHalf:hover,
+#number_cardOne:hover,
+#number_cardTwo:hover,
+#number_cardThree:hover,
+#number_cardFive:hover,
+#number_cardEight:hover,
+#number_cardThirteen:hover,
+#number_cardTwentyOne:hover,
+#number_cardThirtyFour:hover,
+#number_cardHundred:hover,
+#number_cardQuestionMark:hover
+{
+    font-size: 3.3em;
+}
+
+
+#number_cardZero,
+#number_cardHalf,
+#number_cardOne,
+#number_cardTwo,
+#number_cardThree,
+#number_cardFive,
+#number_cardEight,
+#number_cardThirteen,
+#number_cardTwentyOne,
+#number_cardThirtyFour,
+#number_cardHundred,
+#number_cardQuestionMark,
+#selectedCardWrapper #cardZero,
+#selectedCardWrapper #cardHalf,
+#selectedCardWrapper #cardOne,
+#selectedCardWrapper #cardTwo,
+#selectedCardWrapper #cardThree,
+#selectedCardWrapper #cardFive,
+#selectedCardWrapper #cardEight,
+#selectedCardWrapper #cardThirteen,
+#selectedCardWrapper #cardTwentyOne,
+#selectedCardWrapper #cardThirtyFour,
+#selectedCardWrapper #cardHundred,
+#selectedCardWrapper #cardQuestionMark
+{
+    font-size: 2.5em;
+    margin-top: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: #2C302F;
+}
+
+#selectedCardWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: solid #2C302F;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+  
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#buttonWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;  
+}
+
+#showButton, #resetButton {
+    font-family: 'Oswald', sans-serif;
+    margin: 2%;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#showButton:hover, #resetButton:hover{
+    color: #DE657A;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 768px) {
+    
+#cardZero,
+#cardHalf,
+#cardOne,
+#cardTwo,
+#cardThree,
+#cardFive,
+#cardEight,
+#cardThirteen,
+#cardTwentyOne,
+#cardThirtyFour,
+#cardHundred,
+#cardQuestionMark{
+    width: 20%;
+    height: 120px;
+    margin: 1%;
+}
+    
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+}
+
+@media screen and (min-width: 900px) {
+ 
+#cardZero,
+#cardHalf,
+#cardOne,
+#cardTwo,
+#cardThree,
+#cardFive,
+#cardEight,
+#cardThirteen,
+#cardTwentyOne,
+#cardThirtyFour,
+#cardHundred,
+#cardQuestionMark{
+    height: 150px;
+}
+ 
+}
+
+@media screen and (min-width: 1024px) {
+
+#cardZero,
+#cardHalf,
+#cardOne,
+#cardTwo,
+#cardThree,
+#cardFive,
+#cardEight,
+#cardThirteen,
+#cardTwentyOne,
+#cardThirtyFour,
+#cardHundred,
+#cardQuestionMark{
+    height: 150px;
+    width: 15%;
+    margin: 0.5%;
+}
+    #cardWrapper{
+    
+}
+#number_cardHundred:hover{
+    font-size: 2.8em;
+}
+
+}
+
+
+
